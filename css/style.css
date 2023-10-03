@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='6.25' width='6.25' height='6.25' fill='white'/%3E%3Crect x='12.5' width='6.25' height='6.25' fill='white'/%3E%3Crect x='18.75' width='6.25' height='6.25' fill='white'/%3E%3Crect x='25' width='6.25' height='6.25' fill='white'/%3E%3Crect x='31.25' width='6.25' height='6.25' fill='white'/%3E%3Crect x='37.5' width='6.25' height='6.25' fill='white'/%3E%3Crect x='43.75' width='6.25' height='6.25' fill='white'/%3E%3Crect x='50' width='6.25' height='6.25' fill='black'/%3E%3Crect x='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='62.5' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='68.75' width='6.25' height='6.25' fill='white'/%3E%3Crect x='75' width='6.25' height='6.25' fill='white'/%3E%3Crect x='81.25' width='6.25' height='6.25' fill='white'/%3E%3Crect x='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect y='6.25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='56.25' y='6.25' width='6.25' height='6.25' fill='black'/%3E%3Crect x='62.5' y='6.25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='68.75' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='6.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='6.25' width='6.25' height='6.25' fill='black'/%3E%3Crect y='12.5' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='56.25' y='12.5' width='6.25' height='6.25' fill='black'/%3E%3Crect x='62.5' y='12.5' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='68.75' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='12.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='12.5' width='6.25' height='6.25' fill='black'/%3E%3Crect y='18.75' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='56.25' y='18.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='62.5' y='18.75' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='68.75' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='18.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='18.75' width='6.25' height='6.25' fill='black'/%3E%3Crect y='25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='56.25' y='25' width='6.25' height='6.25' fill='black'/%3E%3Crect x='62.5' y='25' width='6.25' height='6.25' fill='black'/%3E%3Crect x='68.75' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='25' width='6.25' height='6.25' fill='black'/%3E%3Crect y='31.25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='56.25' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='62.5' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='68.75' y='31.25' width='6.25' height='6.25' fill='black'/%3E%3Crect x='75' y='31.25' width='6.25' height='6.25' fill='black'/%3E%3Crect x='81.25' y='31.25' width='6.25' height='6.25' fill='black'/%3E%3Crect x='87.5' y='31.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='31.25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect y='37.5' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='37.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='37.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='37.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='37.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='37.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='37.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='37.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='37.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='56.25' y='37.5' width='6.25' height='6.25' fill='black'/%3E%3Crect x='62.5' y='37.5' width='6.25' height='6.25' fill='white'/%3E%3Crect x='68.75' y='37.5' width='6.25' height='6.25' fill='white'/%3E%3Crect x='75' y='37.5' width='6.25' height='6.25' fill='white'/%3E%3Crect x='81.25' y='37.5' width='6.25' height='6.25' fill='white'/%3E%3Crect x='87.5' y='37.5' width='6.25' height='6.25' fill='black'/%3E%3Crect x='93.75' y='37.5' width='6.25' height='6.25' fill='black'/%3E%3Crect y='43.75' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='56.25' y='43.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='62.5' y='43.75' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='68.75' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='43.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='43.75' width='6.25' height='6.25' fill='black'/%3E%3Crect y='50' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='56.25' y='50' width='6.25' height='6.25' fill='black'/%3E%3Crect x='62.5' y='50' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='68.75' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='50' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='50' width='6.25' height='6.25' fill='black'/%3E%3Crect y='56.25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='56.25' y='56.25' width='6.25' height='6.25' fill='black'/%3E%3Crect x='62.5' y='56.25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='68.75' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='56.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='56.25' width='6.25' height='6.25' fill='black'/%3E%3Crect y='62.5' width='6.25' height='6.25' fill='black'/%3E%3Crect x='6.25' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='62.5' width='6.25' height='6.25' fill='black'/%3E%3Crect x='56.25' y='62.5' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='62.5' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='68.75' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='62.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='62.5' width='6.25' height='6.25' fill='black'/%3E%3Crect y='68.75' width='6.25' height='6.25' fill='white'/%3E%3Crect x='6.25' y='68.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='12.5' y='68.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='18.75' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='50' y='68.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='56.25' y='68.75' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='62.5' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='68.75' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='68.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='68.75' width='6.25' height='6.25' fill='black'/%3E%3Crect y='75' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='75' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='12.5' y='75' width='6.25' height='6.25' fill='white'/%3E%3Crect x='18.75' y='75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='25' y='75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='31.25' y='75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='37.5' y='75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='43.75' y='75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='50' y='75' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='56.25' y='75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='62.5' y='75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='68.75' y='75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='75' width='6.25' height='6.25' fill='black'/%3E%3Crect y='81.25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='81.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='81.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='81.25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='25' y='81.25' width='6.25' height='6.25' fill='white'/%3E%3Crect x='31.25' y='81.25' width='6.25' height='6.25' fill='white'/%3E%3Crect x='37.5' y='81.25' width='6.25' height='6.25' fill='black'/%3E%3Crect x='43.75' y='81.25' width='6.25' height='6.25' fill='black'/%3E%3Crect x='50' y='81.25' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='56.25' y='81.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='62.5' y='81.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='68.75' y='81.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='81.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='81.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='81.25' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='81.25' width='6.25' height='6.25' fill='black'/%3E%3Crect y='87.5' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='6.25' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='12.5' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='18.75' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='25' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='31.25' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='37.5' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='87.5' width='6.25' height='6.25' fill='black'/%3E%3Crect x='50' y='87.5' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='56.25' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='62.5' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='68.75' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='75' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='81.25' y='87.5' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='87.5' y='87.5' width='6.25' height='6.25' fill='black'/%3E%3Crect x='93.75' y='87.5' width='6.25' height='6.25' fill='black'/%3E%3Crect y='93.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='6.25' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='12.5' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='18.75' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='25' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='31.25' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='37.5' y='93.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='43.75' y='93.75' width='6.25' height='6.25' fill='%23F6C286'/%3E%3Crect x='50' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='56.25' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='62.5' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='68.75' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='75' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='81.25' y='93.75' width='6.25' height='6.25' fill='black'/%3E%3Crect x='87.5' y='93.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3Crect x='93.75' y='93.75' width='6.25' height='6.25' fill='%23CF612E'/%3E%3C/svg%3E%0A");
+}
+
+
+.game-board {
+    width: 100%;
+    height: 600px;
+    border-bottom: 9px solid green;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87ceeb , #e0f6ff) ;
+}
+
+.pipe { 
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: pipe-animation 3s infinite linear;
+    
+}
+
+.mario {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+   
+}
+
+.txt {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'Pixelify Sans', 'cursive';
+}
+
+.jump {
+    animation: mario-jump 500ms ease-out;
+}
+
+.cloud {
+    position: absolute;
+    width: 550px;
+    animation: cloud-animation 20s infinite linear;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn button {
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Pixelify Sans', 'cursive'; 
+    border: none;
+    padding: 10px;
+    
+}
+
+.hide {
+    display: none;
+  }
+
+
+
+@keyframes cloud-animation {
+    from {
+        right: -550px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes mario-jump {
+    0% {
+        bottom: 0;
+    }
+    40% {
+        bottom: 180px;
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
